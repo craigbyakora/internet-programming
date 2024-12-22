@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&B Perfume - Online Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>D&B Perfume</h1>
+        <p>Bringing the world's best perfumes to you.</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="items.html">Items</a>
+            <a href="shopping.html">Online Shopping</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Online Shopping</h2>
+            <p>Select your favorite perfumes and calculate the total price:</p>
+        </section>
+        <section class="shopping-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Image</th>
+                        <th>Price (USD)</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody id="shopping-table">
+                    <tr>
+                        <td>Tom Ford</td>
+                        <td><img src="tomford.jpg" alt="Tom Ford Perfume"></td>
+                        <td class="price" data-price="90">$90.00</td>
+                        <td><input type="number" class="quantity" value="0" min="0"></td>
+                        <td class="subtotal">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td>Hugo Boss</td>
+                        <td><img src="hugo boss.jpg" alt="Hugo Boss Perfume"></td>
+                        <td class="price" data-price="75">$75.00</td>
+                        <td><input type="number" class="quantity" value="0" min="0"></td>
+                        <td class="subtotal">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td>Dior</td>
+                        <td><img src="dior.jpg" alt="Dior Perfume"></td>
+                        <td class="price" data-price="85">$85.00</td>
+                        <td><input type="number" class="quantity" value="0" min="0"></td>
+                        <td class="subtotal">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td>Chanel</td>
+                        <td><img src="chanel.jpg" alt="Chanel Perfume"></td>
+                        <td class="price" data-price="95">$95.00</td>
+                        <td><input type="number" class="quantity" value="0" min="0"></td>
+                        <td class="subtotal">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td>Gucci</td>
+                        <td><img src="gucci.jpg" alt="Gucci Perfume"></td>
+                        <td class="price" data-price="80">$80.00</td>
+                        <td><input type="number" class="quantity" value="0" min="0"></td>
+                        <td class="subtotal">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td>Versace</td>
+                        <td><img src="versace.jpg" alt="Versace Perfume"></td>
+                        <td class="price" data-price="78">$78.00</td>
+                        <td><input type="number" class="quantity" value="0" min="0"></td>
+                        <td class="subtotal">$0.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="calculate-total">Calculate Total</button>
+            <p id="total-cost">Total: $0.00</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 D&B Perfume. Bringing the world's best perfumes to you.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">&#x1F426;</a>
+                <a href="#" aria-label="Twitter">&#x1F426;</a>
+                <a href="#" aria-label="Instagram">&#x1F426;</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
